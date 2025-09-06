@@ -1,0 +1,1 @@
+export const API_URL = "https://backend-na3b.onrender.com/api";

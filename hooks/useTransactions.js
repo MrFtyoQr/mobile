@@ -2,8 +2,9 @@
 
 import { useCallback, useState } from "react";
 import { Alert } from "react-native";
+import { API_URL } from "../constants/api";
 
-const API_URL = "http://TU-IP/api";
+// const API_URL = "https://backend-na3b.onrender.com/api";
 
 export const useTransactions = (userId) => {
     const [transactions, setTransactions] = useState([]);
